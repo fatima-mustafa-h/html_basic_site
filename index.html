@@ -1,65 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Houseplant Haven - Home</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <h1 class="intro-title">Welcome to Houseplant Haven</h1>
-      <p class="intro-text">Bring nature indoors and discover the joy of living with plants. 
-      From air‑purifying wonders to low‑maintenance companions, houseplants make every space feel alive.</p>
-      <nav>
-        <ul>
-           <p class="main-text"><b>See More:</b></p>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="container">
-      <h1 class="main-title">Featured Plants</h1>
-      <section>
-        <h2>Snake Plant (Sansevieria trifasciata)</h2>
-        <ul>
-          <li><b>Care:</b> Tolerates low light, infrequent watering, and neglect.</li> 
-          <li><b>Benefit:</b> Filters toxins like formaldehyde and benzene from the air.</li>
-          <li><b>Fun Fact:</b> Releases oxygen at night, making it a great bedroom plant.</li>
-          <li><b>Tip:</b> Water only when soil is completely dry — overwatering is the main killer.</li>
-        </ul>
-        <img src="images_used/snake-plant.jpeg" alt="Snake Plant" width="200">
-      </section>
-      <section>
-        <h2>Pothos (Epipremnum aureum)</h2>
-        <ul>
-          <li><b>Care:</b> Thrives in indirect light and can grow in soil or water.</li> 
-          <li><b>Benefit:</b> Known as the “beginner’s plant” because it’s nearly indestructible.</li>
-          <li><b>Fun Fact:</b> Its trailing vines can grow several feet long, perfect for hanging baskets.</li>
-          <li><b>Tip:</b> Trim regularly to encourage bushier growth and prevent legginess.</li>
-        </ul>
-        <img src="imges_used/pothos.jpeg" alt="Pothos Plant" width="200">
-      </section>
-      <section>
-        <h2>Peace Lily (Spathiphyllum)</h2>
-        <ul>
-          <li><b>Care:</b> Prefers medium to low light and weekly watering.</li> 
-          <li><b>Benefit:</b> Improves indoor air quality and adds elegance with its white blooms.</li>
-          <li><b>Fun Fact:</b> Peace lilies droop dramatically when thirsty, then perk up after watering.</li>
-          <li><b>Tip:</b> Keep away from pets — leaves can be mildly toxic if ingested.</li>
-        </ul>
-        <img src="images_used/peace-lily.jpeg" alt="Peace Lily" width="200">
-      </section>
-      <section>
-        <h2>Aloe Vera</h2>
-        <ul>
-          <li><b>Care:</b> Needs bright, indirect sunlight and minimal watering.</li> 
-          <li><b>Benefit:</b> Gel inside leaves soothes burns and skin irritation.</li>
-          <li><b>Fun Fact:</b> Aloe has been used in traditional medicine for thousands of years.</li>
-          <li><b>Tip:</b> Use a well‑draining potting mix (like cactus soil) to prevent root rot.</li>
-        </ul>
-        <img src="images_used/aloe-vera.jpeg" alt="Aloe Vera" width="200">
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Houseplant Haven - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="intro-title">Welcome to Houseplant Haven</h1>
+    <p class="intro-text">
+      Bring nature indoors and discover the joy of living with plants.
+      From air-purifying wonders to low-maintenance companions, houseplants make every space feel alive.
+    </p>
+
+    <nav class="nav">
+      <span class="nav-label"><strong>See More:</strong></span>
+      <ul class="nav-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2 class="main-title">Featured Plants</h2>
+
+    <section class="card">
+      <h3>Snake Plant (Sansevieria trifasciata)</h3>
+      <ul>
+        <li><strong>Care:</strong> Tolerates low light and infrequent watering.</li>
+        <li><strong>Benefit:</strong> Filters indoor toxins.</li>
+        <li><strong>Fun Fact:</strong> Releases oxygen at night.</li>
+        <li><strong>Tip:</strong> Water only when soil is dry.</li>
+      </ul>
+      <img src="images_used/snake-plant.jpeg" alt="Snake Plant">
+    </section>
+
+    <section class="card">
+      <h3>Pothos (Epipremnum aureum)</h3>
+      <ul>
+        <li><strong>Care:</strong> Thrives in indirect light.</li>
+        <li><strong>Benefit:</strong> Beginner friendly.</li>
+        <li><strong>Fun Fact:</strong> Long trailing vines.</li>
+        <li><strong>Tip:</strong> Trim to prevent legginess.</li>
+      </ul>
+      <img src="images_used/pothos.jpeg" alt="Pothos Plant">
+    </section>
+
+    <section class="card">
+      <h3>Peace Lily (Spathiphyllum)</h3>
+      <ul>
+        <li><strong>Care:</strong> Medium to low light.</li>
+        <li><strong>Benefit:</strong> Improves air quality.</li>
+        <li><strong>Fun Fact:</strong> Droops when thirsty.</li>
+        <li><strong>Tip:</strong> Keep away from pets.</li>
+      </ul>
+      <img src="images_used/peace-lily.jpeg" alt="Peace Lily">
+    </section>
+
+    <section class="card">
+      <h3>Aloe Vera</h3>
+      <ul>
+        <li><strong>Care:</strong> Bright indirect light.</li>
+        <li><strong>Benefit:</strong> Soothes skin irritation.</li>
+        <li><strong>Fun Fact:</strong> Used for thousands of years.</li>
+        <li><strong>Tip:</strong> Use well-draining soil.</li>
+      </ul>
+      <img src="images_used/aloe-vera.jpeg" alt="Aloe Vera">
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>This is a small site project created for practice purposes.</p>
+  </footer>
+
+</body>
 </html>
